@@ -1,14 +1,5 @@
 :root {
-  /* --background-gradient: linear-gradient(to right, #3a7bd5, #00d2ff); */
-
-  /* --background-gradient: linear-gradient(to right,#00c6ff, #0072ff); */
-
-  /* --background-gradient: linear-gradient(to right, #0052D4,#4364F7,#6FB1FC); */
-
   --background-gradient: linear-gradient(to right top, #292E49, #536976);
-
-  /* --background-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
-
 }
 
 * {
@@ -20,6 +11,20 @@
 }
 
 
+
+*::-webkit-scrollbar {
+  width: 10px;               
+}
+
+*::-webkit-scrollbar-track {
+  background: white;   
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(44, 44, 44);
+  border-radius: 20px;     
+  border: 3px solid white;  
+}
 
 .container {
   display: flex;
